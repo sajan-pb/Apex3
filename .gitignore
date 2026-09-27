@@ -1,0 +1,17 @@
+node_modules/
+dist/
+cache/
+artifacts/
+typechain-types/
+.env
+coverage/
+coverage.json
+*.log
+indexer/bel_audit.db*
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+.DS_Store
+frontend/node_modules/
+frontend/dist/
