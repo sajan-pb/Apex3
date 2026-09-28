@@ -90,7 +90,7 @@ async function deployFullSystem() {
  *
  * CREDENTIAL_ISSUER_ROLE admin is CREDENTIAL_ISSUER_ADMIN_ROLE.
  * STATUS_MANAGER_ROLE admin is STATUS_ADMIN_ROLE.
- * ASSET_MINTER_ROLE admin is DEFAULT_ADMIN_ROLE (OZ default since we didn't call _setRoleAdmin for it).
+ * ASSET_MINTER_ROLE admin is STATUS_ADMIN_ROLE (set in AssetNFT constructor).
  *
  * So we need to grant deployer the correct admin roles first, then grant operational roles.
  */

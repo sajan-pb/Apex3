@@ -15,48 +15,48 @@ getContractFactory(name: 'ICredentialCheck', signerOrOptions?: ethers.Signer | F
 getContractFactory(name: 'IERC5192', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.IERC5192__factory>
 getContractFactory(name: 'IEthereumDIDRegistry', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.IEthereumDIDRegistry__factory>
 getContractFactory(name: 'ITimeBoundAccessControl', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ITimeBoundAccessControl__factory>
-getContractFactory(name: 'CredentialRegistry', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.CredentialRegistry__factory>
-getContractFactory(name: 'MultiSigAdmin', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MultiSigAdmin__factory>
 getContractFactory(name: 'TimeBoundAccessControl', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.TimeBoundAccessControl__factory>
-getContractFactory(name: 'EthereumDIDRegistry', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.EthereumDIDRegistry__factory>
 getContractFactory(name: 'IMultiSigAdmin', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.IMultiSigAdmin__factory>
 getContractFactory(name: 'MaliciousTarget', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MaliciousTarget__factory>
+getContractFactory(name: 'EthereumDIDRegistry', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.EthereumDIDRegistry__factory>
+getContractFactory(name: 'MultiSigAdmin', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MultiSigAdmin__factory>
+getContractFactory(name: 'CredentialRegistry', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.CredentialRegistry__factory>
 
   getContractAt(name: 'AssetNFT', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.AssetNFT>
 getContractAt(name: 'ICredentialCheck', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ICredentialCheck>
 getContractAt(name: 'IERC5192', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.IERC5192>
 getContractAt(name: 'IEthereumDIDRegistry', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.IEthereumDIDRegistry>
 getContractAt(name: 'ITimeBoundAccessControl', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ITimeBoundAccessControl>
-getContractAt(name: 'CredentialRegistry', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.CredentialRegistry>
-getContractAt(name: 'MultiSigAdmin', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MultiSigAdmin>
 getContractAt(name: 'TimeBoundAccessControl', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.TimeBoundAccessControl>
-getContractAt(name: 'EthereumDIDRegistry', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.EthereumDIDRegistry>
 getContractAt(name: 'IMultiSigAdmin', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.IMultiSigAdmin>
 getContractAt(name: 'MaliciousTarget', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MaliciousTarget>
+getContractAt(name: 'EthereumDIDRegistry', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.EthereumDIDRegistry>
+getContractAt(name: 'MultiSigAdmin', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MultiSigAdmin>
+getContractAt(name: 'CredentialRegistry', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.CredentialRegistry>
 
   deployContract(name: 'AssetNFT', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.AssetNFT>
 deployContract(name: 'ICredentialCheck', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ICredentialCheck>
 deployContract(name: 'IERC5192', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IERC5192>
 deployContract(name: 'IEthereumDIDRegistry', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IEthereumDIDRegistry>
 deployContract(name: 'ITimeBoundAccessControl', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ITimeBoundAccessControl>
-deployContract(name: 'CredentialRegistry', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CredentialRegistry>
-deployContract(name: 'MultiSigAdmin', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MultiSigAdmin>
 deployContract(name: 'TimeBoundAccessControl', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.TimeBoundAccessControl>
-deployContract(name: 'EthereumDIDRegistry', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.EthereumDIDRegistry>
 deployContract(name: 'IMultiSigAdmin', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IMultiSigAdmin>
 deployContract(name: 'MaliciousTarget', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MaliciousTarget>
+deployContract(name: 'EthereumDIDRegistry', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.EthereumDIDRegistry>
+deployContract(name: 'MultiSigAdmin', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MultiSigAdmin>
+deployContract(name: 'CredentialRegistry', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CredentialRegistry>
 
   deployContract(name: 'AssetNFT', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.AssetNFT>
 deployContract(name: 'ICredentialCheck', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ICredentialCheck>
 deployContract(name: 'IERC5192', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IERC5192>
 deployContract(name: 'IEthereumDIDRegistry', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IEthereumDIDRegistry>
 deployContract(name: 'ITimeBoundAccessControl', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ITimeBoundAccessControl>
-deployContract(name: 'CredentialRegistry', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CredentialRegistry>
-deployContract(name: 'MultiSigAdmin', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MultiSigAdmin>
 deployContract(name: 'TimeBoundAccessControl', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.TimeBoundAccessControl>
-deployContract(name: 'EthereumDIDRegistry', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.EthereumDIDRegistry>
 deployContract(name: 'IMultiSigAdmin', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IMultiSigAdmin>
 deployContract(name: 'MaliciousTarget', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MaliciousTarget>
+deployContract(name: 'EthereumDIDRegistry', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.EthereumDIDRegistry>
+deployContract(name: 'MultiSigAdmin', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MultiSigAdmin>
+deployContract(name: 'CredentialRegistry', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CredentialRegistry>
 
     // default types
     getContractFactory(

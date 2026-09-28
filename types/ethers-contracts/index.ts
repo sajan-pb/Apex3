@@ -20,11 +20,11 @@ export type { IEthereumDIDRegistry } from './AssetNFT.sol/IEthereumDIDRegistry.j
 export { IEthereumDIDRegistry__factory } from './factories/AssetNFT.sol/IEthereumDIDRegistry__factory.js';
 export type { ITimeBoundAccessControl } from './AssetNFT.sol/ITimeBoundAccessControl.js';
 export { ITimeBoundAccessControl__factory } from './factories/AssetNFT.sol/ITimeBoundAccessControl__factory.js';
-export { CredentialRegistry__factory } from './factories/CredentialRegistry__factory.js';
-export { MultiSigAdmin__factory } from './factories/MultiSigAdmin__factory.js';
 export { TimeBoundAccessControl__factory } from './factories/TimeBoundAccessControl__factory.js';
-export { EthereumDIDRegistry__factory } from './factories/EthereumDIDRegistry__factory.js';
 export type { IMultiSigAdmin } from './test/ReentrancyAttacker.sol/IMultiSigAdmin.js';
 export { IMultiSigAdmin__factory } from './factories/test/ReentrancyAttacker.sol/IMultiSigAdmin__factory.js';
 export type { MaliciousTarget } from './test/ReentrancyAttacker.sol/MaliciousTarget.js';
 export { MaliciousTarget__factory } from './factories/test/ReentrancyAttacker.sol/MaliciousTarget__factory.js';
+export { EthereumDIDRegistry__factory } from './factories/EthereumDIDRegistry__factory.js';
+export { MultiSigAdmin__factory } from './factories/MultiSigAdmin__factory.js';
+export { CredentialRegistry__factory } from './factories/CredentialRegistry__factory.js';
