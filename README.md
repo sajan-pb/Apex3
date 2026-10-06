@@ -1,6 +1,6 @@
-# BEL Trust Chain — Blockchain Prototype for SIH26125
+# BEL Trust Chain — Blockchain Prototype 
 
-> **Smart India Hackathon SIH26125** — Bharat Electronics Limited (BEL)
+
 > Theme: Blockchain & Cybersecurity
 
 Decentralized identity, NFT-based asset management, smart-contract-enforced RBAC,
